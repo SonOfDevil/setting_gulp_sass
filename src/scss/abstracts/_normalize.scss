@@ -12,6 +12,8 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  // width 360px 기준의 디자인을 rem으로 setting
+  font-size:calc((100vw/360)*10);
 }
 
 /* Sections
